@@ -1,5 +1,5 @@
 # docker-zerotier
 
-usage
+## usage
 
-docker run -e ZEROTIER_NETWORK=xxxxx guestros/zerotier
+`docker run -e ZEROTIER_NETWORK=xxxxx guestros/zerotier`
