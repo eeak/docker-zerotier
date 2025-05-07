@@ -1,0 +1,8 @@
+services:
+  zerotier:
+    image: eeak/zerotier
+    build: .
+    container_name: zerotier
+    restart: always
+    environment:
+      - ZEROTIER_NETWORK=your-zerotier-network-id
